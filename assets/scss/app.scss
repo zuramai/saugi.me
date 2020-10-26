@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 400;
+    src: url('./../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 300;
+    src: url('./../fonts/Poppins-Light.ttf');
+}
+body {
+    font-family: 'Poppins';
+    
+}
+.container {
+    margin: 0 auto;
+    min-height: 100vh;
+}
+#tsparticles {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+}
+@media screen and (max-width:767px) {
+    .nav {
+        max-height: 0;
+        overflow: hidden;
+        transition: all .6s;
+    }
+    .nav.navbar-show {
+        max-height: 100vh;
+    }
+}
