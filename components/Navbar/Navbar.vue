@@ -11,6 +11,7 @@
                     <nav-item :to="{name: 'index'}" @click="navbar_show=false">Home</nav-item>
                     <nav-item :to="{name: 'achievements'}" @click="navbar_show=false">Achievements</nav-item>
                     <nav-item :to="{name: 'projects'}" @click="navbar_show=false">Projects</nav-item>
+                    <nav-item :to="{name: 'blog'}" @click="navbar_show=false">Blog</nav-item>
                     <nav-item :to="{name: 'skills'}" @click="navbar_show=false">Skills</nav-item>
                     <nav-item :to="{name: 'contact'}" @click="navbar_show=false">Contact</nav-item>
                 </ul>
