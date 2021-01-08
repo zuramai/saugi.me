@@ -38,6 +38,7 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@aceforth/nuxt-optimized-images',
+    '@nuxtjs/moment'
   ],
 
   optimizedImages: {
@@ -66,6 +67,10 @@ export default {
 
   markdownit: {
     injected: true
+  },
+
+  moment: {
+    defaultTimezone: 'Asia/Jakarta'
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)

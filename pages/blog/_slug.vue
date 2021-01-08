@@ -4,7 +4,7 @@
         </div>
         <div class="card bg-white shadow-2xl rounded-lg  mt-32  px-12 py-8 mb-2">
             <h1 class='page-heading text-4xl text-left mx-autofont-light text-gray-800 mb-5'>{{ story.name }}</h1>
-            <img :src="story.content.thumbnail.filename" :alt="story.content.thumbnail.alt" class='h-64 w-full mb-5 object-cover rounded-lg shadow-lg'>
+            <img :src="story.content.thumbnail.filename" :alt="story.content.thumbnail.alt" class='h-72 w-full mb-5 object-cover rounded-lg shadow-lg'>
             <div class="content" v-html="$md.render(story.content.paragraph)"></div>
         </div>
     </div>
