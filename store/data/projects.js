@@ -1,5 +1,19 @@
 export default [   
     {
+        image:"mazer.png",
+        title: 'Mazer Admin Dashboard',
+        description: "Clean, responsive and free Bootstrap 5 admin dashboard template",
+        technologies: ['SCSS','Bootstrap 5'],
+        github_url: 'https://github.com/zuramai/sekul'
+    },
+    {
+        image:"nuxewind.png",
+        title: 'Nuxewind Dashboard',
+        description: "Free and open-source Nuxt + TailwindCSS Dashboard Template",
+        technologies: ['SCSS','Bootstrap 5'],
+        github_url: 'https://github.com/zuramai/sekul'
+    },
+    {
         image:"sekul.png",
         title: 'Sekul Admin Dashboard',
         description: "Free and open-source Bootstrap 5 admin template.",
@@ -12,6 +26,20 @@ export default [
         description: "Free and open-source Bootstrap 5 admin template.",
         technologies: ['SCSS','Bootstrap 5'],
         github_url: 'https://github.com/zuramai/voler'
+    },
+    {
+        image:"kait.png",
+        title: 'KAIT Admin Dashboard',
+        description: "Free VueJS 2 Admin Dashboard Theme",
+        technologies: ['VueJS','TailwindCSS'],
+        github_url: 'https://github.com/devoverid/kait-admin'
+    },
+    {
+        image:"zuradmin.png",
+        title: 'Zuradmin Admin Dashboard',
+        description: "Free HTML5 Admin Dashboard Theme (Unfinished)",
+        technologies: ['TailwindCSS','SCSS'],
+        github_url: 'https://github.com/zuramai/zuradmin'
     },
     {
         image:"forum.png",
@@ -55,25 +83,11 @@ export default [
         github_url: 'https://github.com/zuramai/othello'
     },
     {
-        image:"kait.png",
-        title: 'KAIT Admin Dashboard',
-        description: "Free VueJS 2 Admin Dashboard Theme",
-        technologies: ['VueJS','TailwindCSS'],
-        github_url: 'https://github.com/devoverid/kait-admin'
-    },
-    {
         image:"cloudify.png",
         title: 'Cloudify Wordpress Theme',
         description: "Free HTML5 Wordpress Landing Theme",
         technologies: ['Wordpress','SCSS'],
         github_url: 'https://github.com/zuramai/cloudify-wordpress'
-    },
-    {
-        image:"zuradmin.png",
-        title: 'Zuradmin Admin Dashboard',
-        description: "Free HTML5 Admin Dashboard Theme (Unfinished)",
-        technologies: ['TailwindCSS','SCSS'],
-        github_url: 'https://github.com/zuramai/zuradmin'
     },
     {
         image:"devover.png",

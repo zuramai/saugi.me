@@ -52,7 +52,7 @@ export default [
     {
     icon: "devicon-express-original",
     name: 'ExpressJS',
-    years: '1 years',
+    years: '6 months',
     },
     {
     icon: "devicon-python-plain colored",
