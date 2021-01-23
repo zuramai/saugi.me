@@ -10,7 +10,7 @@ export default [
         image:"nuxewind.png",
         title: 'Nuxewind Dashboard',
         description: "Free and open-source Nuxt + TailwindCSS Dashboard Template",
-        technologies: ['SCSS','Bootstrap 5'],
+        technologies: ['NuxtJS','VueJS','TailwindCSS'],
         github_url: 'https://github.com/zuramai/sekul'
     },
     {
