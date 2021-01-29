@@ -9,7 +9,7 @@ export default {
   head: {
     title: 'Ahmad Saugi',
     meta: [
-      { description: 'Ahmad Saugi adalah seorang fullstack web developer yang sekarang sedang berkuliah di Binus University. Saugi sudah berpengalaman lebih dari 3 tahun dalam dunia programming.' },
+      { name: 'description', description: 'Ahmad Saugi adalah seorang fullstack web developer yang sekarang sedang berkuliah di Binus University. Saugi sudah berpengalaman lebih dari 3 tahun dalam dunia programming.' },
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' }
