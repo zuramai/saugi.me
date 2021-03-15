@@ -33,6 +33,13 @@
                     <img src="@/assets/socmed/linkedin-circle.svg" alt="LinkedIn" class='w-8 mr-3'>
                     <a class='text-blue-600 hover:text-blue-400' href="https://www.linkedin.com/in/ahmad-saugi/" target="_blank">https://www.linkedin.com/in/ahmad-saugi/</a>
                 </div>
+
+                <h5 class='mb-2 mt-5 font-bold'>Ask me anonymously:</h5>
+                <div class="contact flex flex-row items-center mb-5">
+                    <img src="@/assets/socmed/askfm.png" alt="LinkedIn" class='w-8 mr-3'>
+                    <a class='text-blue-600 hover:text-blue-400' href="https://ask.fm/amsaugi/" target="_blank">https://ask.fm/amsaugi/</a>
+                </div>
+
             </div>
         </div>
     </div>

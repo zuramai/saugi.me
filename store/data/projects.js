@@ -1,5 +1,12 @@
 export default [   
     {
+        image:"hugoblog.png",
+        title: 'Hugoblog - Free Blog Theme',
+        description: "Clean, lightweight, and full SEO blog theme for Hugo SSG",
+        technologies: ['SCSS','Bootstrap 5'],
+        github_url: 'https://github.com/zuramai/sekul'
+    },
+    {
         image:"mazer.png",
         title: 'Mazer Admin Dashboard',
         description: "Clean, responsive and free Bootstrap 5 admin dashboard template",
