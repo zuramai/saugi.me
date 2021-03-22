@@ -1,14 +1,18 @@
 <template>
     <li class='nav-item mr-0 text-2xl  bg-white md:bg-transparent' @click="$emit('click')">
-        <nuxt-link :to="to" class='block nav-link text-gray-700 p-3 relative tracking-wide'>
+        <nuxt-link v-if="!href" :to="to" class='block nav-link text-gray-700 p-3 relative tracking-wide'>
             <slot/>
         </nuxt-link>
+        <a v-else target="_blank" :href="href"  class='block nav-link text-gray-700 p-3 relative tracking-wide'>
+            <slot/>
+        </a>
     </li>   
 </template>
 <script>
 export default {
     props: {
-        to: String
+        to: String,
+        href: String
     }
 }
 </script>
