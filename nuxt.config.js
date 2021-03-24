@@ -37,7 +37,8 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@aceforth/nuxt-optimized-images',
-    '@nuxtjs/moment'
+    '@nuxtjs/moment',
+    '@nuxtjs/google-analytics'
   ],
 
   optimizedImages: {
@@ -60,9 +61,6 @@ export default {
     proxy: true // Can be also an object with default options
   },
 
-  proxy: {
-    '/api/': { target: 'https://api.storyblok.com', pathRewrite: {'^/api/': ''} }
-  },
 
   markdownit: {
     injected: true
@@ -74,5 +72,9 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+  },
+
+  googleAnalytics: {
+    id: ''
   }
 }

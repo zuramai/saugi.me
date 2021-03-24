@@ -9,15 +9,15 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@types/webpack-env": "^1.15.3",
     "@nuxtjs/axios": "^5.12.4",
     "@nuxtjs/markdownit": "^1.2.10",
     "@nuxtjs/moment": "^1.6.1",
     "@nuxtjs/proxy": "^2.1.0",
+    "@types/webpack-env": "^1.15.3",
     "core-js": "^3.6.5",
+    "enhanced-resolve": "^5.7.0",
     "fibers": "^5.0.0",
     "moment": "^2.29.1",
-    "enhanced-resolve": "^5.7.0",
     "nuxt": "^2.14.6",
     "particles.vue": "^2.1.7",
     "sass": "^1.27.0",
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@aceforth/nuxt-optimized-images": "^1.3.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/imagemin": "^0.2.0",
     "@nuxtjs/tailwindcss": "^3.1.0",
     "imagemin-mozjpeg": "^9.0.0",
