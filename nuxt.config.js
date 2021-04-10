@@ -75,6 +75,6 @@ export default {
   },
 
   googleAnalytics: {
-    id: '${{ secrets.GOOGLE_ANALITYCS }}'
+    id: 'G-93R5E9GHY0'
   }
 }
