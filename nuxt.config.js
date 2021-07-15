@@ -11,7 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Ahmad Saugi adalah seorang fullstack web developer yang sekarang sedang berkuliah di Binus University. Saugi sudah berpengalaman lebih dari 3 tahun dalam dunia programming.'  }
+      { hid: 'description', name: 'description', content: 'Ahmad Saugi is a professional full-stack web developer who has 3+ years of experience and currently studying computer science at Binus University. I love making open-source projects.'  }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -50,11 +50,6 @@ export default {
     '@nuxtjs/markdownit',
     ['@nuxtjs/axios'],
     ['@nuxtjs/proxy'],
-    ['storyblok-nuxt', {
-      accessToken: 'DelMgZAS1kgdH9kVQregQAtt',
-      cacheProvider: 'memory',
-      customParent: 'YOUR_URL_WHERE_RUN_STORYBLOK_APP' // optional https://www.storyblok.com/docs/Guides/storyblok-latest-js#storyblokinitconfig
-    }],
   ],
 
   axios: {
