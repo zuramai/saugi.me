@@ -2,27 +2,27 @@ export default [
     {
     icon: 'devicon-photoshop-plain colored',
     name: 'Photoshop',
-    years: '3 months',
+    years: '6 months',
     },
     {
     icon_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/160px-Figma-logo.svg.png',
     name: 'Figma',
-    years: '3 months',
+    years: '6 months',
     },
     {
     icon: "devicon-go-plain colored",
     name: 'Golang',
-    years: '6 months',
+    years: '1 year',
     },
     {
     icon: "devicon-css3-plain colored",
     name: 'CSS',
-    years: '3 years',
+    years: '4 years',
     },
     {
     icon: "devicon-php-plain colored",
     name: 'PHP',
-    years: '3 years',
+    years: '4 years',
     },
     {
     icon: "devicon-laravel-plain colored",
@@ -37,7 +37,7 @@ export default [
     {
     icon: "devicon-vuejs-plain colored",
     name: 'VueJS',
-    years: '2 years',
+    years: '3 years',
     },
     {
     icon: "devicon-react-plain colored",
@@ -67,17 +67,17 @@ export default [
     {
     icon: "devicon-wordpress-plain colored",
     name: 'Wordpress',
-    years: '1 year',
+    years: '2 year',
     },
     {
     icon: "devicon-redis-plain colored",
     name: 'Redis',
-    years: '8 months',
+    years: '6 months',
     },
     {
     icon: "devicon-mysql-plain colored",
     name: 'MySQL',
-    years: '3 years',
+    years: '4 years',
     },
     {
     icon: "devicon-postgresql-plain colored",

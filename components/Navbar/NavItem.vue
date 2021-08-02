@@ -11,7 +11,7 @@
 <script>
 export default {
     props: {
-        to: String,
+        to: Object,
         href: String
     }
 }

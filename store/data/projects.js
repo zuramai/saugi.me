@@ -1,5 +1,37 @@
 export default [   
     {
+        image:"animux.png",
+        title: 'Animux - Anime Wordpress Theme',
+        description: "Wordpress theme for anime streaming. Design by Herman Pavlyuk",
+        technologies: ['PHP','Wordpress','SCSS'],
+    },
+    {
+        image:"piano.png",
+        title: 'Piano Tiles Clone',
+        description: "Piano game made with HTML, CSS, and Vanilla JS",
+        technologies: ['HTML','CSS'],
+    },
+    {
+        image:"family-tree.png",
+        title: 'Silsilah - Family Tree Creator',
+        description: "Drag n drop family tree creator and visualization",
+        technologies: ['Vue JS 3','WindiCSS'],
+    },
+    {
+        image:"bst.png",
+        title: 'Binary Search Tree Visualization',
+        description: "BST and AVL Balancing Visualization with HTML CSS",
+        technologies: ['Vanilla JS'],
+        github_url: 'https://github.com/zuramai/binary-search-tree'
+    },
+    {
+        image:"chess.png",
+        title: 'Vue Chess Game',
+        description: "Chess game made with Vue JS 3 and SVG",
+        technologies: ['SCSS','Vue JS 3'],
+        github_url: 'https://github.com/zuramai/chessplay'
+    },
+    {
         image:"hugoblog.png",
         title: 'Hugoblog - Free Blog Theme',
         description: "Clean, lightweight, and full SEO blog theme for Hugo SSG",
@@ -81,13 +113,6 @@ export default [
         description: "Open-source CSS Animations that you can use in your projects",
         technologies: ['CSS'],
         github_url: 'https://github.com/zuramai/css-animations'
-    },
-    {
-        image:"othello.png",
-        title: 'Othello HTML5 Game',
-        description: "Web-based game Othello HTML5 canvas",
-        technologies: ['Javascript'],
-        github_url: 'https://github.com/zuramai/othello'
     },
     {
         image:"cloudify.png",

@@ -10,6 +10,7 @@
                         :image="require(`~/assets/images/projects/${project.image}`)" 
                         :description="project.description"
                         :technologies="project.technologies"
+                        :github_url="project.github_url"
                     />
                 </div>
             </div>
