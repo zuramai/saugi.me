@@ -36,8 +36,8 @@
 
                 <h5 class='mb-2 mt-5 font-bold'>Ask me anonymously:</h5>
                 <div class="contact flex flex-row items-center mb-5">
-                    <img src="@/assets/socmed/askfm.png" alt="LinkedIn" class='w-8 mr-3'>
-                    <a class='text-blue-600 hover:text-blue-400' href="https://ask.fm/amsaugi/" target="_blank">https://ask.fm/amsaugi/</a>
+                    <img src="https://secreto.site/images/icons/apple-icon-57x57.png" alt="Secreto" class='w-8 mr-3'>
+                    <a class='text-blue-600 hover:text-blue-400' href="https://secreto.site/21228876" target="_blank">https://secreto.site/21228876</a>
                 </div>
 
             </div>
