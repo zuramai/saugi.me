@@ -1,5 +1,11 @@
 export default [   
     {
+        image:"starbackjs.gif",
+        title: 'Starback.js',
+        description: "Javascript library to make animated rainfall/starfall background",
+        technologies: ['HTML5 Canvas','Javascript'],
+    },
+    {
         image:"animux.png",
         title: 'Animux - Anime Wordpress Theme',
         description: "Wordpress theme for anime streaming. Design by Herman Pavlyuk",
@@ -91,7 +97,7 @@ export default [
         title: 'Othello HTML5 Game',
         description: "Othello Board Game you can play via website (LKSN 2019 task)",
         technologies: ['Javascript'],
-        github_url: 'https://github.com/zuramai/snake-html5'
+        github_url: 'https://github.com/zuramai/othello'
     },
     {
         image:"snake.png",
