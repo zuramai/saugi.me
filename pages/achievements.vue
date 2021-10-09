@@ -10,12 +10,6 @@
                         <li class='achievement flex flex-col md:flex-row text-left justify-start   items-center mb-5'>
                             <img src="@/assets/images/icon/trophy.svg" alt="Trophy" class='w-8'>
                             <div class="description ml-2 text-center md:text-left">
-                                <h5 class='text-lg font-medium'>1st Place at WorldSkills Competition Shanghai 2021 Web Technologies (my wish)</h5>
-                            </div>
-                        </li>
-                        <li class='achievement flex flex-col md:flex-row text-left justify-start   items-center mb-5'>
-                            <img src="@/assets/images/icon/trophy.svg" alt="Trophy" class='w-8'>
-                            <div class="description ml-2 text-center md:text-left">
                                 <h5 class='text-lg font-medium'>1st Place at LKS Nasional 2020 Web Technologies</h5>
                             </div>
                         </li>
