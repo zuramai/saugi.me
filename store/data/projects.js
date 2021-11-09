@@ -42,21 +42,21 @@ export default [
         title: 'Hugoblog - Free Blog Theme',
         description: "Clean, lightweight, and full SEO blog theme for Hugo SSG",
         technologies: ['SCSS','Bootstrap 5'],
-        github_url: 'https://github.com/zuramai/sekul'
+        github_url: 'https://github.com/zuramai/hugoblog'
     },
     {
         image:"mazer.png",
         title: 'Mazer Admin Dashboard',
         description: "Clean, responsive and free Bootstrap 5 admin dashboard template",
         technologies: ['SCSS','Bootstrap 5'],
-        github_url: 'https://github.com/zuramai/sekul'
+        github_url: 'https://github.com/zuramai/mazer'
     },
     {
         image:"nuxewind.png",
         title: 'Nuxewind Dashboard',
         description: "Free and open-source Nuxt + TailwindCSS Dashboard Template",
         technologies: ['NuxtJS','VueJS','TailwindCSS'],
-        github_url: 'https://github.com/zuramai/sekul'
+        github_url: 'https://github.com/zuramai/nuxewind'
     },
     {
         image:"sekul.png",
