@@ -1,6 +1,6 @@
 export default [   
     {
-        image:"starbackjs.gif",
+        image:"starback.gif",
         title: 'Starback.js',
         description: "Javascript library to make animated rainfall/starfall background",
         technologies: ['HTML5 Canvas','Javascript'],
