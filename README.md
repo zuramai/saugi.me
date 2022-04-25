@@ -1,20 +1,20 @@
-# ahmadsaugicom
+# Personal Website
 
 ## Build Setup
 
 ```bash
 # install dependencies
-$ yarn install
+$ pnpm i
 
 # serve with hot reload at localhost:3000
-$ yarn dev
+$ pnpm run dev
 
 # build for production and launch server
-$ yarn build
-$ yarn start
+$ pnpm build
+$ pnpm start
 
 # generate static project
-$ yarn generate
+$ pnpm generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
