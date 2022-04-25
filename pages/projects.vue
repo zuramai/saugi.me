@@ -7,7 +7,7 @@
             <div class="flex flex-row flex-wrap">
                 <div class="w-full md:w-1/2 lg:w-1/3 px-5" v-for="(project,index) in $store.state.projects" :key="index">
                     <card :title="project.title" 
-                        :image="require(`~/assets/images/projects/${project.image}`)" 
+                        :image="`/images/projects/${project.image}`" 
                         :description="project.description"
                         :technologies="project.technologies"
                         :github_url="project.github_url"

@@ -8,31 +8,31 @@
                 <div class="achievements">
                     <ul class="achievements">
                         <li class='achievement flex flex-col md:flex-row text-left justify-start   items-center mb-5'>
-                            <img src="@/assets/images/icon/trophy.svg" alt="Trophy" class='w-8'>
+                            <nuxt-img src="/images/icon/trophy.svg" alt="Trophy" class='w-8'/>
                             <div class="description ml-2 text-center md:text-left">
                                 <h5 class='text-lg font-medium'>1st Place at LKS Nasional 2020 Web Technologies</h5>
                             </div>
                         </li>
                         <li class='achievement flex flex-col md:flex-row text-left justify-start   items-center mb-5'>
-                            <img src="@/assets/images/icon/trophy.svg" alt="Trophy" class='w-8'>
+                            <nuxt-img src="/images/icon/trophy.svg" alt="Trophy" class='w-8'/>
                             <div class="description ml-2 text-center md:text-left">
                                 <h5 class='text-lg font-medium'>1st Place at LKS Provinsi DKI Jakarta 2020 Web Technologies</h5>
                             </div>
                         </li>
                         <li class='achievement flex flex-col md:flex-row text-left justify-start   items-center mb-5'>
-                            <img src="@/assets/images/icon/trophy.svg" alt="Trophy" class='w-8'>
+                            <nuxt-img src="/images/icon/trophy.svg" alt="Trophy" class='w-8'/>
                             <div class="description ml-2 text-center md:text-left">
                                 <h5 class='text-lg font-medium'>1st Place at LKS Kota Jakarta Timur 2019 Web Technologies</h5>
                             </div>
                         </li>
                         <li class='achievement flex flex-col md:flex-row text-left justify-start   items-center mb-5'>
-                            <img src="@/assets/images/icon/trophy.svg" alt="Trophy" class='w-8'>
+                            <nuxt-img src="/images/icon/trophy.svg" alt="Trophy" class='w-8'/>
                             <div class="description ml-2 text-center md:text-left">
                                 <h5 class='text-lg font-medium'>3rd Place at LKS Provinsi DKI Jakarta 2019 Web Technologies</h5>
                             </div>
                         </li>
                         <li class='achievement flex flex-col md:flex-row text-left justify-start   items-center mb-5'>
-                            <img src="@/assets/images/icon/trophy.svg" alt="Trophy" class='w-8'>
+                            <nuxt-img src="/images/icon/trophy.svg" alt="Trophy" class='w-8'/>
                             <div class="description ml-2 text-center md:text-left">
                                 <h5 class='text-lg font-medium'>1st Place at LKS Kota Jakarta Timur 2018 Web Technologies</h5>
                             </div>

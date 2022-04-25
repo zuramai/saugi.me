@@ -16,6 +16,7 @@ specifiers:
   particles.vue: ^3.0.6
   sass: ^1.27.0
   sass-loader: ^10.1.1
+  tsparticles-preset-triangles: ^2.0.6
 
 dependencies:
   '@types/webpack-env': 1.16.4
@@ -35,6 +36,7 @@ devDependencies:
   imagemin-mozjpeg: 9.0.0
   imagemin-pngquant: 9.0.2
   imagemin-svgo: 8.0.0
+  tsparticles-preset-triangles: 2.0.6
 
 packages:
 
@@ -9567,7 +9569,61 @@ packages:
   /tsparticles-engine/2.0.6:
     resolution: {integrity: sha512-qsAMp68No1ncbFQbyjILrVtS9LeNTtBmxPa91COvHq4iLELReUjVxXTWfLWi0+xczTbdpNPRPx92r0V3xlqeHw==}
     requiresBuild: true
-    dev: false
+
+  /tsparticles-interaction-particles-links/2.0.6:
+    resolution: {integrity: sha512-Ds895DBTVKXD1wayIB5R6420EPxM6YRjaW9MmRD9DYuAiHNTE9gjx+OC5rIz7I6trv3cFmT3sBwRIPE67V3+KQ==}
+    dependencies:
+      tsparticles-engine: 2.0.6
+    dev: true
+
+  /tsparticles-move-base/2.0.6:
+    resolution: {integrity: sha512-ZRmUKOWzMsYIZ/TXA1KO4+MfRXZPNBpVPJw2ivAAHd2pefqMyHqqikbFj72fol5uQCeZt4yF4c3pychKGn2MHg==}
+    dependencies:
+      tsparticles-engine: 2.0.6
+    dev: true
+
+  /tsparticles-preset-triangles/2.0.6:
+    resolution: {integrity: sha512-2h3wOKgaiC35k7w7DSRWnkP/PdO+iBoh6UwqWr969+abI+CaWYIgOXJogQmI0Fb66ltMdMd+4qxs5HPBmvaCSg==}
+    dependencies:
+      tsparticles-engine: 2.0.6
+      tsparticles-interaction-particles-links: 2.0.6
+      tsparticles-move-base: 2.0.6
+      tsparticles-shape-circle: 2.0.6
+      tsparticles-updater-color: 2.0.6
+      tsparticles-updater-opacity: 2.0.6
+      tsparticles-updater-out-modes: 2.0.6
+      tsparticles-updater-size: 2.0.6
+    dev: true
+
+  /tsparticles-shape-circle/2.0.6:
+    resolution: {integrity: sha512-6DR1y0CcvOwekUGa5EgOKrRXf9PWXZEH8/c46bdqVDbdS7c5OXtmydnHApgNTkvpDAXNqNew8JOMeqM4mzKmTg==}
+    dependencies:
+      tsparticles-engine: 2.0.6
+    dev: true
+
+  /tsparticles-updater-color/2.0.6:
+    resolution: {integrity: sha512-Hj1DWDfMu2r3i6oNTGUBWmzE7RaOe8aG+5b5qWJ4Lb1g/8Ar+FHGFFgDYXyVFbKqNR8pQwjKT1tRsLZF0ANhfw==}
+    dependencies:
+      tsparticles-engine: 2.0.6
+    dev: true
+
+  /tsparticles-updater-opacity/2.0.6:
+    resolution: {integrity: sha512-PscpRLlUb3vrsWOAL6s83CwRcVhc2RCmLbWXr84ZT3izKoRCjyHFkbTU/we343DiDXbMqxyxA8/KKYvEAphIhw==}
+    dependencies:
+      tsparticles-engine: 2.0.6
+    dev: true
+
+  /tsparticles-updater-out-modes/2.0.6:
+    resolution: {integrity: sha512-c8qG36XNcfY6hMmZQ5EPsV66AmHEwNJEuItiOY/0mmT6hmJHHDF2ps1EECedfRiixm6APk+jTDsARt7iL+IC8g==}
+    dependencies:
+      tsparticles-engine: 2.0.6
+    dev: true
+
+  /tsparticles-updater-size/2.0.6:
+    resolution: {integrity: sha512-VdpY2jxy8HLagLStO7ylfRJR9NoXF52Rd6l/1l7CHMc/2lu38tENDoPkPVSXCvBJPKHK3eoDksMCknZ069tIEA==}
+    dependencies:
+      tsparticles-engine: 2.0.6
+    dev: true
 
   /tsscmp/1.0.6:
     resolution: {integrity: sha512-LxhtAkPDTkVCMQjt2h6eBVY28KCjikZqZfMcC15YBeNjkgUpdCfBu5HoiOTDu86v6smE8yOjyEktJ8hlbANHQA==}

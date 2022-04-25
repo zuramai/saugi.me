@@ -1,6 +1,6 @@
 <template>
     <div class='card shadow-lg mb-8 rounded-xl  bg-white'>
-        <img :src="image" class='h-48 w-full rounded-t-lg object-cover ' :alt="`Image for ${title}`" v-if="image!==''">
+        <nuxt-img :src="image" class='h-48 w-full rounded-t-lg object-cover ' :alt="`Image for ${title}`" v-if="image!==''"/>
         <div class="card-body py-3 px-5 relative">
             <h3 class='text-2xl text-gray-700'>{{title}}</h3>
             <p class='mt-3 text-gray-600'>{{description}}</p>
