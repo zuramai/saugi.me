@@ -9,7 +9,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/google-gtag": "^1.0.4",
     "@types/webpack-env": "^1.16.4",
+    "consola": "^2.15.3",
     "core-js": "^3.22.2",
     "enhanced-resolve": "^5.9.3",
     "fibers": "^5.0.1",

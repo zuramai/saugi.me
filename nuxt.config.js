@@ -37,7 +37,13 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-analytics',
+    '@nuxtjs/google-gtag'
   ],
+
+  'google-gtag': {
+    id: 'G-74V5DSB2NW',
+    debug: true, // enable to track in dev mode
+  },
 
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
