@@ -9,23 +9,20 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@types/webpack-env": "^1.15.3",
-    "core-js": "^3.6.5",
-    "enhanced-resolve": "^5.7.0",
-    "fibers": "^5.0.0",
-    "nuxt": "^2.14.6",
+    "@types/webpack-env": "^1.16.4",
+    "core-js": "^3.22.2",
+    "enhanced-resolve": "^5.9.3",
+    "fibers": "^5.0.1",
+    "ipx": "^0.9.4",
+    "nuxt": "^2.15.8",
     "particles.vue": "^3.0.6",
-    "sass": "^1.27.0",
-    "sass-loader": "^10.1.1"
+    "sass": "^1.50.1",
+    "sass-loader": "^10.2.1"
   },
   "devDependencies": {
-    "@nuxt/image": "^0.6.2",
     "@nuxtjs/google-analytics": "^2.4.0",
-    "@nuxtjs/imagemin": "^0.2.0",
-    "@nuxtjs/tailwindcss": "^3.1.0",
-    "imagemin-mozjpeg": "^9.0.0",
-    "imagemin-pngquant": "^9.0.1",
-    "imagemin-svgo": "^8.0.0",
+    "@nuxtjs/tailwindcss": "^3.4.3",
+    "babel-preset-app": "link:@nuxt/babel-preset-app",
     "tsparticles-preset-triangles": "^2.0.6"
   }
 }
