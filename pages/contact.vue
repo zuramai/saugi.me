@@ -7,24 +7,24 @@
             <div class="card  bg-white shadow-2xl rounded-lg px-12 py-8 mb-2">
                 <div class="contact flex flex-row items-center mb-5">
                     <div class="image">
-                        <nuxt-img src="/images/socmed/telegram.svg" alt="Telegram" class='w-8 mr-3'/>
+                        <img src="/images/socmed/telegram.svg" alt="Telegram" class='w-8 mr-3'/>
                     </div>
                     <a class='text-blue-600 hover:text-blue-400' href="https://t.me/amsaugi/" target="_blank">https://t.me/amsaugi/</a>
                 </div>
                 <div class="contact flex flex-row items-center mb-5">
                     <div class="image">
-                        <nuxt-img src="/images/socmed/github-circle.svg" alt="Github" class='w-8 mr-3'/>
+                        <img src="/images/socmed/github-circle.svg" alt="Github" class='w-8 mr-3'/>
                     </div>
                     <a class='text-blue-600 hover:text-blue-400' href="https://github.com/zuramai/" target="_blank">https://github.com/zuramai/</a>
                 </div>
                 <div class="contact flex flex-row items-center mb-5">
                     <div class="image">
-                        <nuxt-img src="/images/socmed/instagram.svg" alt="Instagram" class='w-8 mr-3'/>
+                        <img src="/images/socmed/instagram.svg" alt="Instagram" class='w-8 mr-3'/>
                     </div>
                     <a class='text-blue-600 hover:text-blue-400' href="https://www.instagram.com/asawgi/" target="_blank">https://www.instagram.com/asawgi</a>
                 </div>
                 <div class="contact flex flex-row items-center mb-5">
-                    <nuxt-img src="/images/socmed/linkedin-square.svg" alt="LinkedIn" class='w-8 mr-3'/>
+                    <img src="/images/socmed/linkedin-square.svg" alt="LinkedIn" class='w-8 mr-3'/>
                     <a class='text-blue-600 hover:text-blue-400' href="https://www.linkedin.com/in/ahmad-saugi/" target="_blank">https://www.linkedin.com/in/ahmad-saugi/</a>
                 </div>
 
