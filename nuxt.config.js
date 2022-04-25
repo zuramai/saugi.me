@@ -36,34 +36,10 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@aceforth/nuxt-optimized-images',
-    '@nuxtjs/moment',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-analytics',
+    '@nuxt/image',
   ],
 
-  optimizedImages: {
-    optimizeImages: true
-  },
-
-  // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [
-    '@nuxtjs/markdownit',
-    ['@nuxtjs/axios'],
-    ['@nuxtjs/proxy'],
-  ],
-
-  axios: {
-    proxy: true // Can be also an object with default options
-  },
-
-
-  markdownit: {
-    injected: true
-  },
-
-  moment: {
-    defaultTimezone: 'Asia/Jakarta'
-  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
