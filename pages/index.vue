@@ -10,13 +10,13 @@
       <p class='text-2xl'><span class='text-green-600'>Enthusiastic</span> Web Developer</p>
       <div class="links d-flex flex-row mt-5">
         <a class='socmed inline-block mr-4 duration-200 ease-in-out' href="https://github.com/zuramai">
-          <img src="/socmed/github-circle.svg" alt="Github" class='w-8' target="_blank"/>
+          <img src="/images/socmed/github-circle.svg" alt="Github" class='w-8' target="_blank"/>
         </a>
         <a class='socmed inline-block mr-4 duration-200 ease-in-out' href="https://www.instagram.com/asawgi">
-          <img src="/socmed/instagram.svg" alt="Instagram" class='w-8' target="_blank"/>
+          <img src="/images/socmed/instagram.svg" alt="Instagram" class='w-8' target="_blank"/>
         </a>
         <a class='socmed inline-block mr-4 duration-200 ease-in-out' href="https://www.linkedin.com/in/ahmad-saugi/">
-          <img src="/socmed/linkedin-square.svg" alt="Linkedin" class='w-8' target="_blank"/>
+          <img src="/images/socmed/linkedin-square.svg" alt="Linkedin" class='w-8' target="_blank"/>
         </a>
       </div>
     </div>
