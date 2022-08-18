@@ -12,7 +12,8 @@
     "@unocss/preset-icons": "^0.45.7",
     "@unocss/transformer-directives": "^0.45.7",
     "normalize.css": "^8.0.1",
-    "nuxt": "3.0.0-rc.8"
+    "nuxt": "3.0.0-rc.8",
+    "vue-gtag-next": "^1.14.0"
   },
   "dependencies": {
     "@iconify-json/mdi": "^1.1.30",

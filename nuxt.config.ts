@@ -5,13 +5,14 @@ import transformerDirective from '@unocss/transformer-directives'
 export default defineNuxtConfig({
   modules: [
     '@unocss/nuxt',
-    '@pinia/nuxt'
+    '@pinia/nuxt',
   ],
   // Global page headers (https://go.nuxtjs.dev/config-head)
  
   buildModules: [
     '@nuxtjs/google-fonts'
   ],
+  
   css: [
     'normalize.css',
     'assets/css/style.css',
