@@ -27,7 +27,7 @@ button {
   border-color: #7d7d7d4d; 
   @apply my-8;
 }
-.prose > h1 {
+.content h1 {
   margin-bottom: 2.5rem;
 }
 .content {
