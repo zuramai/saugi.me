@@ -19,8 +19,4 @@ const activeTab = inject<string>('activeTab')
     border-top-right-radius: 0;
     margin-left: 0;
 }
-.tab__content {
-    overflow-y: auto;
-    overflow-x: visible;
-}
 </style>

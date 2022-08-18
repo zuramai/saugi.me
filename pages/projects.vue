@@ -14,6 +14,8 @@ useHead({
 const showTab = ref('opensource')
 
 const store = useProjectsStore()
+const openSource = computed(() => store.projects.filter((p) => p.opensource))
+const closedSource = computed(() => store.projects.filter((p) => !p.opensource))
 
 console.log(store.projects)
 </script>
@@ -25,10 +27,28 @@ console.log(store.projects)
       
       <Tabs>
         <tab-content name="open" text="Open Source">
-          open
+          <div class="project-cards | grid grid-cols-2 md:grid-cols-3 gap-5 py-5">
+            <Card v-for="(project, index) in openSource" :key="index"
+              :title="project.title" 
+              :image="project.image" 
+              :description="project.description" 
+              :github="project.github_url" 
+              :opensource="project.description" 
+              class="w-full"
+              >
+            </Card>
+          </div>
         </tab-content>
         <tab-content name="closed" text="Closed Source">
-          close
+          <div class="project-cards | grid grid-cols-3 gap-5 py-5">
+            <Card v-for="(project, index) in closedSource" :key="index"
+              :title="project.title" 
+              :image="project.image" 
+              :description="project.description" 
+              class="w-full"
+              >
+            </Card>
+          </div>
         </tab-content>
       </Tabs>
     </div>

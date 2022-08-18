@@ -8,7 +8,7 @@ export const useProjectsStore = defineStore('projects', {
                 description: "Javascript library to make animated rainfall/starfall background",
                 technologies: ['HTML5 Canvas', 'Javascript'],
                 opensource: true,
-                github: "https://github.com/zuramai/starback.js"
+                github_url: "https://github.com/zuramai/starback.js"
             },
             {
                 image: "/images/projects/animux.png",
@@ -38,7 +38,6 @@ export const useProjectsStore = defineStore('projects', {
                 technologies: ['Vanilla JS'],
                 github_url: 'https://github.com/zuramai/binary-search-tree',
                 opensource: true,
-                github: "https://github.com/zuramai/binary-search-tree"
             },
             {
                 image: "/images/projects/chess.png",
@@ -47,7 +46,6 @@ export const useProjectsStore = defineStore('projects', {
                 technologies: ['SCSS', 'Vue JS 3'],
                 github_url: 'https://github.com/zuramai/chessplay',
                 opensource: true,
-                github: "https://github.com/zuramai/chessplay"
             },
             {
                 image: "/images/projects/hugoblog.png",
@@ -56,7 +54,6 @@ export const useProjectsStore = defineStore('projects', {
                 technologies: ['SCSS', 'Bootstrap 5'],
                 github_url: 'https://github.com/zuramai/hugoblog',
                 opensource: true,
-                github: "https://github.com/zuramai/hugoblog"
             },
             {
                 image: "/images/projects/mazer.png",
@@ -65,7 +62,6 @@ export const useProjectsStore = defineStore('projects', {
                 technologies: ['SCSS', 'Bootstrap 5'],
                 github_url: 'https://github.com/zuramai/mazer',
                 opensource: true,
-                github: "https://github.com/zuramai/mazer"
             },
             {
                 image: "/images/projects/nuxewind.png",
@@ -74,7 +70,6 @@ export const useProjectsStore = defineStore('projects', {
                 technologies: ['NuxtJS', 'VueJS', 'TailwindCSS'],
                 github_url: 'https://github.com/zuramai/nuxewind',
                 opensource: true,
-                github: "https://github.com/zuramai/nuxewind"
             },
             {
                 image: "/images/projects/sekul.png",
@@ -83,7 +78,6 @@ export const useProjectsStore = defineStore('projects', {
                 technologies: ['SCSS', 'Bootstrap 5'],
                 github_url: 'https://github.com/zuramai/sekul',
                 opensource: true,
-                github: "https://github.com/zuramai/sekul"
 
             },
             {
@@ -93,7 +87,7 @@ export const useProjectsStore = defineStore('projects', {
                 technologies: ['SCSS', 'Bootstrap 5'],
                 github_url: 'https://github.com/zuramai/voler',
                 opensource: true,
-                github: "https://github.com/zuramai/voler"
+                github_url: "https://github.com/zuramai/voler"
             },
             {
                 image: "/images/projects/kait.png",
@@ -102,7 +96,6 @@ export const useProjectsStore = defineStore('projects', {
                 technologies: ['VueJS', 'TailwindCSS'],
                 github_url: 'https://github.com/devoverid/kait-admin',
                 opensource: true,
-                github: "https://github.com/devoverid/kait-admin"
             },
             {
                 image: "/images/projects/zuradmin.png",
@@ -235,7 +228,7 @@ export const useProjectsStore = defineStore('projects', {
             },
             {
                 image: "/images/projects/11.png",
-                title: 'Website Point of Sales',
+                title: 'Point of Sales',
                 description: "Adalah website untuk manajemen penjualan sekaligus aplikasi kasir serta laporan penjualan lengkap",
                 technologies: ['PHP Laravel 5.7', 'VueJS 2'],
                 opensource: true,
