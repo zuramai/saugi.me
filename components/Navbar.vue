@@ -1,5 +1,11 @@
 <script setup>
 const isNavbarOpen = ref(true)
+
+onBeforeMount(() => {
+  if(document.body.clientWidth < 768) {
+    isNavbarOpen.value = false
+  }
+})
 </script>
 <template>
   <nav>
@@ -35,7 +41,7 @@ const isNavbarOpen = ref(true)
 <style>
 .navbar__link {
   padding: 0.5rem;
-  text-decoration: none
+  text-decoration: none;
 }
 .navbar__link.router-link-active {
   border-bottom: 1px solid;
