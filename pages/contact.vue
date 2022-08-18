@@ -23,7 +23,7 @@ useHead({
         </div>
         <div class="contact | flex items-center gap-3 mb-5">
           <div class="i-mdi-linkedin w-6 h-6 bg-blue-500"></div>
-          <a href="https://t.me/zuramai" target="_blank">Ahmad Saugi</a>
+          <a href="https://linkedin.com/in/ahmad-saugi" target="_blank">Ahmad Saugi</a>
         </div>
         <div class="contact | flex items-center gap-3 mb-5">
           <div class="i-mdi-instagram w-6 h-6 bg-red-500"></div>
