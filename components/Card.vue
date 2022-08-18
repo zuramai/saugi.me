@@ -13,7 +13,7 @@ const isNotYetOpen = props.opensource && !props.github
 <div class="max-w-sm bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 relative">
     <a :href="github" target="_blank" class="block">
         <lazy-client-only>
-            <img class="w-full h-30 object-cover" :src="image" :alt="`Image for ${title}`" />
+            <img class="w-full h-25 sm:h-35" :src="image" :alt="`Image for ${title}`" />
         </lazy-client-only>
     </a>
     <div class="p-3 ">

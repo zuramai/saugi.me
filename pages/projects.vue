@@ -21,7 +21,7 @@ console.log(store.projects)
 </script>
 <template>
 <section class="content">
-  <div class="container mx-auto">
+  <div class="container mx-auto max-w-[75ch]!">
     <div class="prose">
       <h1 class="text-center">My Projects</h1>
       
