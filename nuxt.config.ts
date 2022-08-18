@@ -5,6 +5,7 @@ import transformerDirective from '@unocss/transformer-directives'
 export default defineNuxtConfig({
   modules: [
     '@unocss/nuxt',
+    '@pinia/nuxt'
   ],
   // Global page headers (https://go.nuxtjs.dev/config-head)
  

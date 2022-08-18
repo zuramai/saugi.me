@@ -31,7 +31,7 @@ button {
   margin-bottom: 2.5rem;
 }
 .content {
-  padding: 2rem;
+  @apply py-5;
 }
 p {
   @apply tracking-wide leading-8;

@@ -16,7 +16,9 @@
   },
   "dependencies": {
     "@iconify-json/mdi": "^1.1.30",
-    "@nuxt/kit": "^3.0.0-rc.8"
+    "@nuxt/kit": "^3.0.0-rc.8",
+    "@pinia/nuxt": "^0.4.0",
+    "pinia": "^2.0.18"
   },
   "packageManager": "yarn@3.2.2"
 }

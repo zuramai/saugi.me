@@ -43,7 +43,6 @@ provide('activeTab', activeTabName)
     display: flex;
     flex-wrap: wrap;
     gap: 0.3rem;
-    padding: 0.5rem;
     border-top-left-radius: var(--pane-top-left-radius);
     border-top-right-radius: var(--pane-top-right-radius);
     background-color: var(--vp-c-gray-dark-5);

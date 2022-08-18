@@ -14,7 +14,6 @@ useHead({
   <div class="container mx-auto">
     <div class="prose">
       <h1 class="text-center">Reach Me!</h1>
-      
     </div>
   </div>
 </section>
