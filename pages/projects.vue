@@ -6,10 +6,7 @@ definePageMeta({
   layout: "main",
 });
 useHead({
-  title: 'Home',
-  meta: [
-    { hid: 'description', name: 'description', content: 'Ahmad Saugi is a professional full-stack web developer who has 4+ years of experience and currently studying computer science at Binus University. I love making open-source projects.' }
-  ],
+  title: 'Projects',
 })
 const showTab = ref('opensource')
 

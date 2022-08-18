@@ -15,7 +15,7 @@ onBeforeMount(() => {
         <router-link to="/" class="decoration-none">Saugi</router-link>
       </h3>
       <div class='w-1/3'>
-        <button class="p-2 bg-transparent border-none md:hidden inline-block" type="button" @click="isNavbarOpen=!isNavbarOpen">
+        <button class="p-2 bg-transparent border-none md:hidden inline-block" type="button" name="toggle-menu" aria- @click="isNavbarOpen=!isNavbarOpen">
           <div class="i-mdi-menu"></div>
         </button>
       </div>
