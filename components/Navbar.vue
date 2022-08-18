@@ -32,7 +32,7 @@ const isNavbarOpen = ref(true)
 </template>
 <style>
 .navbar__link {
-  @apply p-2;
+  @apply p-2 decoration-none;
 }
 .navbar__link.router-link-active {
   @apply border-b;
