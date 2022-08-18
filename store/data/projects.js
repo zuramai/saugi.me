@@ -163,7 +163,7 @@ export const useProjectsStore = defineStore('projects', {
                 title: 'CSS Animations',
                 description: "Open-source CSS Animations that you can use in your projects",
                 technologies: ['CSS'],
-                github_url: 'https://github.com/zuramai/css-animations',
+                github_url: 'https://github.com/zuramai/css-loadings',
                 opensource: true,
             },
             {
