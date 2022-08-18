@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "nuxi preview"
+    "start": "nuxi preview",
+    "generate": "nuxi generate"
   },
   "devDependencies": {
     "@nuxtjs/google-fonts": "3.0.0-0",
