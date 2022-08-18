@@ -19,11 +19,3 @@ useHead({
   </div>
 </section>
 </template>
-<style>
-.content {
-  @apply py-8;
-}
-p {
-  @apply tracking-wide leading-8;
-}
-</style>

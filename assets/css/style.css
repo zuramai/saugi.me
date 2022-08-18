@@ -27,3 +27,12 @@ button {
   border-color: #7d7d7d4d; 
   @apply my-8;
 }
+.prose > h1 {
+  margin-bottom: 2.5rem;
+}
+.content {
+  padding: 2rem;
+}
+p {
+  @apply tracking-wide leading-8;
+}

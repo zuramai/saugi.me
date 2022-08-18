@@ -41,11 +41,3 @@ const achievements = [
   </div>
 </section>
 </template>
-<style>
-.content {
-  @apply py-8;
-}
-.section__header {
-  @apply mb-12;
-}
-</style>

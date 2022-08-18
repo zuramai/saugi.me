@@ -5,7 +5,9 @@ const isNavbarOpen = ref(true)
   <nav>
     <div class="navbar__brand | italic text-center flex justify-center py-3">
       <div class='w-1/3'></div>
-      <h3 class="w-1/3 text-xl my-0">Saugi</h3>
+      <h3 class="w-1/3 text-xl my-0">
+        <router-link to="/" class="decoration-none">Saugi</router-link>
+      </h3>
       <div class='w-1/3'>
         <button class="p-2 bg-transparent border-none md:hidden inline-block" type="button" @click="isNavbarOpen=!isNavbarOpen">
           <div class="i-mdi-menu"></div>
@@ -32,9 +34,10 @@ const isNavbarOpen = ref(true)
 </template>
 <style>
 .navbar__link {
-  @apply p-2 decoration-none;
+  padding: 0.5rem;
+  text-decoration: none
 }
 .navbar__link.router-link-active {
-  @apply border-b;
+  border-bottom: 1px solid;
 }
 </style>
