@@ -27,7 +27,7 @@ console.log(store.projects)
       
       <Tabs>
         <tab-content name="open" text="Open Source">
-          <div class="project-cards | grid grid-cols-2 md:grid-cols-3 gap-5 py-5">
+          <div class="project-cards | grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 py-5">
             <Card v-for="(project, index) in openSource" :key="index"
               :title="project.title" 
               :image="project.image" 
@@ -40,7 +40,7 @@ console.log(store.projects)
           </div>
         </tab-content>
         <tab-content name="closed" text="Closed Source">
-          <div class="project-cards | grid grid-cols-3 gap-5 py-5">
+          <div class="project-cards | grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-5 py-5">
             <Card v-for="(project, index) in closedSource" :key="index"
               :title="project.title" 
               :image="project.image" 
