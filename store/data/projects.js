@@ -3,10 +3,49 @@ export const useProjectsStore = defineStore('projects', {
     state: () => ({
         projects: [
             {
+                image: "/images/projects/graphism.png",
+                title: 'Graphism',
+                description: "A tool to create graph visualization and run algorithms on top of it ",
+                technologies: ['HTML5 Canvas', 'Typescript'],
+                opensource: true,
+                github_url: "https://github.com/zuramai/graphism"
+            },
+            {
+                image: "/images/projects/timetable.png",
+                title: 'Timetable',
+                description: "A browser extension that helps you to manage your time better and improve productivity",
+                technologies: ['HTML5 Canvas', 'Typescript'],
+                opensource: true,
+            },
+            {
+                image: "/images/projects/refactoring.png",
+                title: 'Refactoring',
+                description: "Complete guide to refactoring in Bahasa Indonesia",
+                technologies: ['Vite', 'Typescript'],
+                opensource: true,
+                github_url: "https://github.com/zuramai/graphism"
+            },
+            {
+                image: "/images/projects/mazer.png",
+                title: 'Mazer Admin Dashboard',
+                description: "Clean, responsive and free Bootstrap 5 admin dashboard template",
+                technologies: ['SCSS', 'Bootstrap 5'],
+                github_url: 'https://github.com/zuramai/mazer',
+                opensource: true,
+            },
+            {
+                image: "/images/projects/graphism.png",
+                title: 'Graphism',
+                description: "A tool to create graph visualization and run algorithms on top of it ",
+                technologies: ['HTML5 Canvas', 'Typescript'],
+                opensource: true,
+                github_url: "https://github.com/zuramai/graphism"
+            },
+            {
                 image: "/images/projects/starback.gif",
                 title: 'Starback.js',
                 description: "Javascript library to make animated rainfall/starfall background",
-                technologies: ['HTML5 Canvas', 'Javascript'],
+                technologies: ['HTML5 Canvas', 'Typescript'],
                 opensource: true,
                 github_url: "https://github.com/zuramai/starback.js"
             },
@@ -21,7 +60,7 @@ export const useProjectsStore = defineStore('projects', {
                 image: "/images/projects/piano.png",
                 title: 'Piano Tiles Clone',
                 description: "Piano game made with HTML, CSS, and Vanilla JS",
-                technologies: ['HTML', 'CSS'],
+                technologies: ['HTML', 'CSS',' JS'],
                 opensource: false,
             },
             {
@@ -56,14 +95,6 @@ export const useProjectsStore = defineStore('projects', {
                 opensource: true,
             },
             {
-                image: "/images/projects/mazer.png",
-                title: 'Mazer Admin Dashboard',
-                description: "Clean, responsive and free Bootstrap 5 admin dashboard template",
-                technologies: ['SCSS', 'Bootstrap 5'],
-                github_url: 'https://github.com/zuramai/mazer',
-                opensource: true,
-            },
-            {
                 image: "/images/projects/nuxewind.png",
                 title: 'Nuxewind Dashboard',
                 description: "Free and open-source Nuxt + TailwindCSS Dashboard Template",
@@ -78,7 +109,6 @@ export const useProjectsStore = defineStore('projects', {
                 technologies: ['SCSS', 'Bootstrap 5'],
                 github_url: 'https://github.com/zuramai/sekul',
                 opensource: true,
-
             },
             {
                 image: "/images/projects/voler.png",
@@ -87,7 +117,6 @@ export const useProjectsStore = defineStore('projects', {
                 technologies: ['SCSS', 'Bootstrap 5'],
                 github_url: 'https://github.com/zuramai/voler',
                 opensource: true,
-                github_url: "https://github.com/zuramai/voler"
             },
             {
                 image: "/images/projects/kait.png",
