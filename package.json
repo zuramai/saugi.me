@@ -1,30 +1,21 @@
 {
-  "name": "ahmadsaugicom",
-  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "@nuxtjs/google-gtag": "^1.0.4",
-    "@types/webpack-env": "^1.16.4",
-    "consola": "^2.15.3",
-    "core-js": "^3.22.2",
-    "enhanced-resolve": "^5.9.3",
-    "fibers": "^5.0.1",
-    "ipx": "^0.9.4",
-    "nuxt": "^2.15.8",
-    "particles.vue": "^3.0.6",
-    "sass": "^1.50.1",
-    "sass-loader": "^10.2.1"
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "nuxi preview"
   },
   "devDependencies": {
-    "@nuxtjs/google-analytics": "^2.4.0",
-    "@nuxtjs/tailwindcss": "^3.4.3",
-    "babel-preset-app": "link:@nuxt/babel-preset-app",
-    "tsparticles-preset-triangles": "^2.0.6"
-  }
+    "@nuxtjs/google-fonts": "3.0.0-0",
+    "@unocss/nuxt": "^0.45.7",
+    "@unocss/preset-icons": "^0.45.7",
+    "@unocss/transformer-directives": "^0.45.7",
+    "normalize.css": "^8.0.1",
+    "nuxt": "3.0.0-rc.8"
+  },
+  "dependencies": {
+    "@iconify-json/mdi": "^1.1.30",
+    "@nuxt/kit": "^3.0.0-rc.8"
+  },
+  "packageManager": "yarn@3.2.2"
 }

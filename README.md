@@ -1,20 +1,42 @@
-# Personal Website
+# Nuxt 3 Minimal Starter
 
-## Build Setup
+Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+
+## Setup
+
+Make sure to install the dependencies:
 
 ```bash
-# install dependencies
-$ pnpm i
+# yarn
+yarn install
 
-# serve with hot reload at localhost:3000
-$ pnpm run dev
+# npm
+npm install
 
-# build for production and launch server
-$ pnpm build
-$ pnpm start
-
-# generate static project
-$ pnpm generate
+# pnpm
+pnpm install --shamefully-hoist
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Development Server
+
+Start the development server on http://localhost:3000
+
+```bash
+npm run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+npm run build
+```
+
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
