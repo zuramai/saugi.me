@@ -3,6 +3,22 @@ export const useProjectsStore = defineStore('projects', {
     state: () => ({
         projects: [
             {
+                image: "/images/projects/mazer.png",
+                title: 'Mazer Admin Dashboard',
+                description: "Clean, responsive and free Bootstrap 5 admin dashboard template",
+                technologies: ['SCSS', 'Bootstrap 5'],
+                github_url: 'https://github.com/zuramai/mazer',
+                opensource: true,
+            },
+            {
+                image: "/images/projects/hugoblog.png",
+                title: 'Hugoblog - Free Blog Theme',
+                description: "Clean, lightweight, and full SEO blog theme for Hugo SSG",
+                technologies: ['SCSS', 'Bootstrap 5'],
+                github_url: 'https://github.com/zuramai/hugoblog',
+                opensource: true,
+            },
+            {
                 image: "/images/projects/graphism.png",
                 title: 'Graphism',
                 description: "A tool to create graph visualization and run algorithms on top of it ",
@@ -22,22 +38,6 @@ export const useProjectsStore = defineStore('projects', {
                 title: 'Refactoring',
                 description: "Complete guide to refactoring in Bahasa Indonesia",
                 technologies: ['Vite', 'Typescript'],
-                opensource: true,
-                github_url: "https://github.com/zuramai/graphism"
-            },
-            {
-                image: "/images/projects/mazer.png",
-                title: 'Mazer Admin Dashboard',
-                description: "Clean, responsive and free Bootstrap 5 admin dashboard template",
-                technologies: ['SCSS', 'Bootstrap 5'],
-                github_url: 'https://github.com/zuramai/mazer',
-                opensource: true,
-            },
-            {
-                image: "/images/projects/graphism.png",
-                title: 'Graphism',
-                description: "A tool to create graph visualization and run algorithms on top of it ",
-                technologies: ['HTML5 Canvas', 'Typescript'],
                 opensource: true,
                 github_url: "https://github.com/zuramai/graphism"
             },
@@ -84,14 +84,6 @@ export const useProjectsStore = defineStore('projects', {
                 description: "Chess game made with Vue JS 3 and SVG",
                 technologies: ['SCSS', 'Vue JS 3'],
                 github_url: 'https://github.com/zuramai/chessplay',
-                opensource: true,
-            },
-            {
-                image: "/images/projects/hugoblog.png",
-                title: 'Hugoblog - Free Blog Theme',
-                description: "Clean, lightweight, and full SEO blog theme for Hugo SSG",
-                technologies: ['SCSS', 'Bootstrap 5'],
-                github_url: 'https://github.com/zuramai/hugoblog',
                 opensource: true,
             },
             {
