@@ -20,6 +20,7 @@ button {
 }
 .container {
   max-width: 65ch !important;
+  @apply px-3;
 }
 .prose hr {
   width: 100px;
