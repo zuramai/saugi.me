@@ -3,224 +3,264 @@ export const useProjectsStore = defineStore('projects', {
     state: () => ({
         projects: [
             {
-                image: "starback.gif",
+                image: "/images/projects/starback.gif",
                 title: 'Starback.js',
                 description: "Javascript library to make animated rainfall/starfall background",
                 technologies: ['HTML5 Canvas', 'Javascript'],
+                opensource: true,
+                github: "https://github.com/zuramai/starback.js"
             },
             {
-                image: "animux.png",
-                title: 'Animux - Anime Wordpress Theme',
+                image: "/images/projects/animux.png",
+                title: 'Animux',
                 description: "Wordpress theme for anime streaming. Design by Herman Pavlyuk",
                 technologies: ['PHP', 'Wordpress', 'SCSS'],
+                opensource: true,
             },
             {
-                image: "piano.png",
+                image: "/images/projects/piano.png",
                 title: 'Piano Tiles Clone',
                 description: "Piano game made with HTML, CSS, and Vanilla JS",
                 technologies: ['HTML', 'CSS'],
+                opensource: false,
             },
             {
-                image: "family-tree.png",
-                title: 'Silsilah - Family Tree Creator',
+                image: "/images/projects/family-tree.png",
+                title: 'Silsilah',
                 description: "Drag n drop family tree creator and visualization",
                 technologies: ['Vue JS 3', 'WindiCSS'],
+                opensource: true,
             },
             {
-                image: "bst.png",
+                image: "/images/projects/bst.png",
                 title: 'Binary Search Tree Visualization',
                 description: "BST and AVL Balancing Visualization with HTML CSS",
                 technologies: ['Vanilla JS'],
-                github_url: 'https://github.com/zuramai/binary-search-tree'
+                github_url: 'https://github.com/zuramai/binary-search-tree',
+                opensource: true,
+                github: "https://github.com/zuramai/binary-search-tree"
             },
             {
-                image: "chess.png",
+                image: "/images/projects/chess.png",
                 title: 'Vue Chess Game',
                 description: "Chess game made with Vue JS 3 and SVG",
                 technologies: ['SCSS', 'Vue JS 3'],
-                github_url: 'https://github.com/zuramai/chessplay'
+                github_url: 'https://github.com/zuramai/chessplay',
+                opensource: true,
+                github: "https://github.com/zuramai/chessplay"
             },
             {
-                image: "hugoblog.png",
+                image: "/images/projects/hugoblog.png",
                 title: 'Hugoblog - Free Blog Theme',
                 description: "Clean, lightweight, and full SEO blog theme for Hugo SSG",
                 technologies: ['SCSS', 'Bootstrap 5'],
-                github_url: 'https://github.com/zuramai/hugoblog'
+                github_url: 'https://github.com/zuramai/hugoblog',
+                opensource: true,
+                github: "https://github.com/zuramai/hugoblog"
             },
             {
-                image: "mazer.png",
+                image: "/images/projects/mazer.png",
                 title: 'Mazer Admin Dashboard',
                 description: "Clean, responsive and free Bootstrap 5 admin dashboard template",
                 technologies: ['SCSS', 'Bootstrap 5'],
-                github_url: 'https://github.com/zuramai/mazer'
+                github_url: 'https://github.com/zuramai/mazer',
+                opensource: true,
+                github: "https://github.com/zuramai/mazer"
             },
             {
-                image: "nuxewind.png",
+                image: "/images/projects/nuxewind.png",
                 title: 'Nuxewind Dashboard',
                 description: "Free and open-source Nuxt + TailwindCSS Dashboard Template",
                 technologies: ['NuxtJS', 'VueJS', 'TailwindCSS'],
-                github_url: 'https://github.com/zuramai/nuxewind'
+                github_url: 'https://github.com/zuramai/nuxewind',
+                opensource: true,
+                github: "https://github.com/zuramai/nuxewind"
             },
             {
-                image: "sekul.png",
+                image: "/images/projects/sekul.png",
                 title: 'Sekul Admin Dashboard',
                 description: "Free and open-source Bootstrap 5 admin template.",
                 technologies: ['SCSS', 'Bootstrap 5'],
-                github_url: 'https://github.com/zuramai/sekul'
+                github_url: 'https://github.com/zuramai/sekul',
+                opensource: true,
+                github: "https://github.com/zuramai/sekul"
+
             },
             {
-                image: "voler.png",
+                image: "/images/projects/voler.png",
                 title: 'Voler Admin Dashboard',
                 description: "Free and open-source Bootstrap 5 admin template.",
                 technologies: ['SCSS', 'Bootstrap 5'],
-                github_url: 'https://github.com/zuramai/voler'
+                github_url: 'https://github.com/zuramai/voler',
+                opensource: true,
+                github: "https://github.com/zuramai/voler"
             },
             {
-                image: "kait.png",
+                image: "/images/projects/kait.png",
                 title: 'KAIT Admin Dashboard',
                 description: "Free VueJS 2 Admin Dashboard Theme",
                 technologies: ['VueJS', 'TailwindCSS'],
-                github_url: 'https://github.com/devoverid/kait-admin'
+                github_url: 'https://github.com/devoverid/kait-admin',
+                opensource: true,
+                github: "https://github.com/devoverid/kait-admin"
             },
             {
-                image: "zuradmin.png",
+                image: "/images/projects/zuradmin.png",
                 title: 'Zuradmin Admin Dashboard',
                 description: "Free HTML5 Admin Dashboard Theme (Unfinished)",
                 technologies: ['TailwindCSS', 'SCSS'],
-                github_url: 'https://github.com/zuramai/zuradmin'
+                github_url: 'https://github.com/zuramai/zuradmin',
+                opensource: true,
             },
             {
-                image: "forum.png",
+                image: "/images/projects/forum.png",
                 title: 'DevoverID Forum',
                 description: "A forum website for you to ask and help others in programming.",
                 technologies: ['NuxtJS', 'Lumen', 'PostgreSQL'],
+                github_url: 'https://github.com/zuramai/zuradmin',
+                opensource: true,
             },
             {
-                image: "othello.png",
+                image: "/images/projects/othello.png",
                 title: 'Othello HTML5 Game',
                 description: "Othello Board Game you can play via website (LKSN 2019 task)",
                 technologies: ['Javascript'],
-                github_url: 'https://github.com/zuramai/othello'
+                github_url: 'https://github.com/zuramai/othello',
+                opensource: true,
             },
             {
-                image: "snake.png",
+                image: "/images/projects/snake.png",
                 title: 'Snake HTML5 Game',
                 description: "HTML5 Snake Game called Phytons using canvas (result of LKSN 2020)",
                 technologies: ['Javascript'],
-                github_url: 'https://github.com/zuramai/snake-html5'
+                github_url: 'https://github.com/zuramai/snake-html5',
+                opensource: true,
             },
             {
-                image: "travelify.png",
+                image: "/images/projects/travelify.png",
                 title: 'Travelify Landing Wordpress Theme',
                 description: "Travelify - Free Wordpress Landing Page Theme",
                 technologies: ['Wordpress', 'Bootstrap 5'],
-                github_url: 'https://github.com/zuramai/travelify-wordpress'
+                github_url: 'https://github.com/zuramai/travelify-wordpress',
+                opensource: true,
             },
             {
-                image: "css_animation.png",
+                image: "/images/projects/css_animation.png",
                 title: 'CSS Animations',
                 description: "Open-source CSS Animations that you can use in your projects",
                 technologies: ['CSS'],
-                github_url: 'https://github.com/zuramai/css-animations'
+                github_url: 'https://github.com/zuramai/css-animations',
+                opensource: true,
             },
             {
-                image: "cloudify.png",
+                image: "/images/projects/cloudify.png",
                 title: 'Cloudify Wordpress Theme',
                 description: "Free HTML5 Wordpress Landing Theme",
                 technologies: ['Wordpress', 'SCSS'],
-                github_url: 'https://github.com/zuramai/cloudify-wordpress'
+                github_url: 'https://github.com/zuramai/cloudify-wordpress',
+                opensource: true,
             },
             {
-                image: "devover.png",
+                image: "/images/projects/devover.png",
                 title: 'Devover.ID',
                 description: "Website untuk Devover.ID yaitu komunitas para developer generasi Z",
-                technologies: ['Wordpress', 'Bootstrap']
+                technologies: ['Wordpress', 'Bootstrap'],
+                opensource: true,
             },
-    
             {
-                image: "1.png",
+                image: "/images/projects/2.png",
                 title: 'Laravel-SMM V1',
                 description: "SMM Panel adalah website untuk membeli jasa Sosial Media Marketing seperti instagram followers, youtube subscribers, dll.",
-                technologies: ['PHP Laravel 5.7', 'Bootstrap 4']
+                technologies: ['PHP Laravel 5.7', 'Bootstrap 4'],
+                opensource: false,
             },
-    
             {
-                image: "2.png",
+                image: "/images/projects/1.png",
                 title: 'Laravel-SMM V2',
                 description: "SMM Panel adalah website untuk membeli jasa Sosial Media Marketing seperti instagram followers, youtube subscribers, dll.",
-                technologies: ['PHP Laravel 5.8', 'Bootstrap 4']
+                opensource: true,
+                technologies: ['PHP Laravel 5.8', 'Bootstrap 4'],
+                github_url: 'https://github.com/zuramai/laravel-smm',
             },
             {
-                image: "3.png",
+                image: "/images/projects/3.png",
                 title: 'Smart School System',
                 description: "Smart School Berbasis Full Face Recognition (Absensi, Lacak Siswa, Ujian Online, Akses kelas, dll)",
-                technologies: ['Golang', 'NodeJS', 'PHP Laravel 5.8', 'VueJS 2', 'TailwindCSS', 'MongoDB']
+                technologies: ['Golang', 'NodeJS', 'PHP Laravel 5.8', 'VueJS 2', 'TailwindCSS', 'MongoDB'],
+                opensource: false,
             },
             {
-                image: "4.png",
+                image: "/images/projects/4.png",
                 title: 'Whatsapp Bot Sender',
                 description: "Sebuah API untuk mengirim pesan whatsapp ke orang atau grup, sekaligus auto join grup whatsapp",
-                technologies: ['Python Flask', 'Jinja2', 'Bootstrap 4', 'PostgreSQL']
+                technologies: ['Python Flask', 'Jinja2', 'Bootstrap 4', 'PostgreSQL'],
+                opensource: false,
             },
             {
-                image: "5.png",
+                image: "/images/projects/5.png",
                 title: 'Sistem Inventaris/Gudang',
                 description: "Sebuah website untuk mengelola barang yang masuk dan keluar, peminjaman, distributor, dan lain-lain.",
-                technologies: ['ExpressJS', 'CSS Native']
+                technologies: ['ExpressJS', 'CSS Native'],
+                opensource: true,
+                github_url: 'https://github.com/zuramai/inventory-nodejs',
             },
             {
-                image: "6.png",
+                image: "/images/projects/6.png",
                 title: 'Photography',
                 description: "Website sosial media mirip Instagram untuk mengupload foto, komentar, rating, dan lain-lain",
-                technologies: ['PHP Native', 'CSS Native']
+                technologies: ['PHP Native', 'CSS Native'],
+                opensource: false,
             },
             {
-                image: "7.png",
-                title: 'Website Kelas',
+                image: "/images/projects/7.png",
+                title: 'Kelaskita',
                 description: "Website untuk mengatur sistem kelas seperti jadwal pelajaran, jadwal piket, anggota kelas, dan lain-lain.",
-                technologies: ['PHP Laravel 5.8']
+                technologies: ['PHP Laravel 5.8'],
+                opensource: true,
+                github_url: 'https://github.com/zuramai/kelaskita',
             },
             {
-                image: "8.png",
+                image: "/images/projects/8.png",
                 title: 'Travel Agency Website',
                 description: "Website agensi untuk jasa travel yang dimana bisa mendaftar sebagai agen travel dan customer",
-                technologies: ['PHP Laravel 5.8', 'VueJS']
+                technologies: ['PHP Laravel 5.8', 'VueJS'],
+                opensource: false,
             },
             {
-                image: "9.png",
-                title: 'Tools Zuramai',
-                description: "tools.zuramai.net adalah website yang berisi kumpulan tools unik yang bisa digunakan",
-                technologies: ['PHP Laravel 6']
-            },
-            {
-                image: "10.png",
+                image: "/images/projects/10.png",
                 title: 'Arminareka Company Profile',
                 description: "Website company profile mengenai jasa haji dan umroh",
-                technologies: ['TailwindCSS']
+                technologies: ['TailwindCSS'],
+                opensource: false,
             },
             {
-                image: "11.png",
+                image: "/images/projects/11.png",
                 title: 'Website Point of Sales',
                 description: "Adalah website untuk manajemen penjualan sekaligus aplikasi kasir serta laporan penjualan lengkap",
-                technologies: ['PHP Laravel 5.7', 'VueJS 2']
+                technologies: ['PHP Laravel 5.7', 'VueJS 2'],
+                opensource: true,
+                github_url: 'https://github.com/zuramai/laravel-vue-pos',
             },
             {
-                image: "12.png",
+                image: "/images/projects/12.png",
                 title: 'Wordpress Template Company Profile',
                 description: "Website company profile dibuat dengan Wordpress sekaligus membuat plugin Contact Form dan Gallery.",
-                technologies: ['TailwindCSS']
+                technologies: ['TailwindCSS'],
+                opensource: false,
             },
             {
-                image: "13.png",
+                image: "/images/projects/13.png",
                 title: 'GoDir - File Directory Manager',
                 description: "GoDir - Website file manager (seperti cPanel) untuk upload, download, delete, rename, dan lain-lain",
-                technologies: ['Golang', 'VueJS 2', 'MongoDB']
+                technologies: ['Golang', 'VueJS 2', 'MongoDB'],
+                opensource: false,
             },
             {
-                image: "14.png",
+                image: "/images/projects/14.png",
                 title: 'HTML5 Canvas Game Development',
                 description: "Game development dengan HTML5 Canvas seperti Space Shooter, Brick Breaker, Flappy Bird, dan lain-lain.",
-                technologies: ['HTML5 Canvas', 'Javascript']
+                technologies: ['HTML5 Canvas', 'Javascript'],
+                opensource: false
             }
         ]
     })
