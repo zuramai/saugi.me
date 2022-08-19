@@ -28,6 +28,7 @@ console.log(store.projects)
             <Card v-for="(project, index) in openSource" :key="index"
               :title="project.title" 
               :image="project.image" 
+              :stacks="project.technologies"
               :description="project.description" 
               :github="project.github_url" 
               :opensource="project.description" 
@@ -41,6 +42,7 @@ console.log(store.projects)
             <Card v-for="(project, index) in closedSource" :key="index"
               :title="project.title" 
               :image="project.image" 
+              :stacks="project.technologies"
               :description="project.description" 
               class="w-full"
               >

@@ -200,7 +200,7 @@ export const useProjectsStore = defineStore('projects', {
                 image: "/images/projects/3.png",
                 title: 'Smart School System',
                 description: "Smart School Berbasis Full Face Recognition (Absensi, Lacak Siswa, Ujian Online, Akses kelas, dll)",
-                technologies: ['Golang', 'NodeJS', 'PHP Laravel 5.8', 'VueJS 2', 'TailwindCSS', 'MongoDB'],
+                technologies: ['Golang', 'NodeJS', 'Laravel', 'VueJS', 'TailwindCSS', 'MongoDB'],
                 opensource: false,
             },
             {
