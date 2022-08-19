@@ -30,7 +30,7 @@ export const useProjectsStore = defineStore('projects', {
                 image: "/images/projects/timetable.png",
                 title: 'Timetable',
                 description: "A browser extension that helps you to manage your time better and improve productivity",
-                technologies: ['HTML5 Canvas', 'Typescript'],
+                technologies: ['Typescript'],
                 opensource: true,
             },
             {
@@ -131,7 +131,7 @@ export const useProjectsStore = defineStore('projects', {
                 title: 'DevoverID Forum',
                 description: "A forum website for you to ask and help others in programming.",
                 technologies: ['NuxtJS', 'Lumen', 'PostgreSQL'],
-                github_url: 'https://github.com/zuramai/zuradmin',
+                github_url: 'https://github.com/devoverid/forum',
                 opensource: true,
             },
             {
@@ -270,7 +270,7 @@ export const useProjectsStore = defineStore('projects', {
                 opensource: false,
             },
             {
-                image: "/images/projects/14.png",
+                image: "/images/projects/canvas-game.png",
                 title: 'HTML5 Canvas Game Development',
                 description: "Game development dengan HTML5 Canvas seperti Space Shooter, Brick Breaker, Flappy Bird, dan lain-lain.",
                 technologies: ['HTML5 Canvas', 'Javascript'],
