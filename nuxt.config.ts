@@ -12,7 +12,6 @@ export default defineNuxtConfig({
   buildModules: [
     '@nuxtjs/google-fonts'
   ],
-  
   css: [
     'normalize.css',
     'assets/css/style.css',

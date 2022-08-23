@@ -21,7 +21,7 @@ const toggleDark = useToggle(isDark)
     <div class="navbar__brand | italic text-center flex justify-center py-3">
       <div class='w-1/3'></div>
       <h3 class="w-1/3 text-xl my-0">
-        <router-link to="/" class="decoration-none | text-white!">Saugi</router-link>
+        <router-link to="/" class="decoration-none | dark:text-white!">Saugi</router-link>
       </h3>
       <div class='w-1/3'>
         <button class="p-2 bg-transparent border-none md:hidden inline-block" type="button" name="toggle-menu" aria-label="Toggle Menu" @click="isNavbarOpen=!isNavbarOpen">
