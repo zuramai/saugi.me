@@ -270,7 +270,7 @@ export const useProjectsStore = defineStore('projects', {
                 opensource: false,
             },
             {
-                image: "/images/projects/canvas-game.png",
+                image: "/images/projects/canvas-game.jpg",
                 title: 'HTML5 Canvas Game Development',
                 description: "Game development dengan HTML5 Canvas seperti Space Shooter, Brick Breaker, Flappy Bird, dan lain-lain.",
                 technologies: ['HTML5 Canvas', 'Javascript'],
