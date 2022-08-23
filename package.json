@@ -11,6 +11,7 @@
     "@unocss/nuxt": "^0.45.7",
     "@unocss/preset-icons": "^0.45.7",
     "@unocss/transformer-directives": "^0.45.7",
+    "@vueuse/core": "^9.1.0",
     "normalize.css": "^8.0.1",
     "nuxt": "3.0.0-rc.8",
     "vue-gtag-next": "^1.14.0"

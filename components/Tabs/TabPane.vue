@@ -25,7 +25,7 @@ defineEmits(['click'])
 .tab__pane--active a {
     background-color: var(--vp-c-black-mute);
     pointer-events: none;
-    @apply text-gray-800;
+    @apply text-gray-800 dark:text-gray-100;
     border-bottom: 1px solid;
 }
 </style>

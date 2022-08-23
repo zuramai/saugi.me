@@ -11,7 +11,7 @@ const props = defineProps({
 const isNotYetOpen = props.opensource && !props.github
 </script>
 <template>
-<div class="w-full bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 relative">
+<div class="w-full bg-white border border-gray-200 shadow-md dark:bg-zinc-800/50 dark:border-gray-800 relative">
     <a :href="github" target="_blank" class="block">
         <lazy-client-only>
             <img class="w-full h-45 sm:h-35" :src="image" :alt="`Image for ${title}`" />
