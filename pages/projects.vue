@@ -14,7 +14,6 @@ const store = useProjectsStore()
 const openSource = computed(() => store.projects.filter((p) => p.opensource))
 const closedSource = computed(() => store.projects.filter((p) => !p.opensource))
 
-console.log(store.projects)
 </script>
 <template>
 <section class="content">
