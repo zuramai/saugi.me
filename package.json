@@ -14,10 +14,11 @@
     "@vueuse/core": "^9.1.0",
     "normalize.css": "^8.0.1",
     "nuxt": "^3.0.0-rc.11",
+    "unplugin-icons": "^0.14.10",
     "vue-gtag-next": "^1.14.0"
   },
   "dependencies": {
-    "@iconify-json/mdi": "^1.1.30",
+    "@iconify-json/mdi": "^1.1.33",
     "@nuxt/kit": "^3.0.0-rc.8",
     "@pinia/nuxt": "^0.4.0",
     "pinia": "^2.0.18"
