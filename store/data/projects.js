@@ -3,6 +3,14 @@ export const useProjectsStore = defineStore('projects', {
     state: () => ({
         projects: [
             {
+                image: "/images/projects/jsonvis.png",
+                title: 'JSONVis',
+                description: "SVG-powered JSON object visualization",
+                technologies: ['Vite', 'SVG'],
+                github_url: 'https://github.com/zuramai/jsonvis',
+                opensource: true,
+            },
+            {
                 image: "/images/projects/mazer.png",
                 title: 'Mazer Admin Dashboard',
                 description: "Clean, responsive and free Bootstrap 5 admin dashboard template",
