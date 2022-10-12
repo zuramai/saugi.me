@@ -8,6 +8,10 @@ useHead({
 
 const achievements = [
   {
+    text: '2nd Place at Indonesia Skills 2022 Web Technologies',
+    class: 'i-mdi:trophy dark:text-gray-200 text-gray-500 w-5 h-5'
+  },
+  {
     text: '1st Place at LKS Nasional 2020 Web Technologies',
     class: 'i-mdi:trophy text-yellow-500 w-5 h-5'
   },
