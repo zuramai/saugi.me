@@ -59,14 +59,14 @@ const achievements = [
       <h1 class='section__title'>My Achievements</h1>
     </div>
     <ul class="pl-0 list-none">
-      <li v-for="achievement in achievements" class="achievement-item bg-white mb-5">
+      <li v-for="achievement in achievements" class="achievement-item mb-5">
         <div class="achievement-name list-none flex gap-3 items-center ">
           <div :class="achievement.class"></div>
           <span class="font-bold text-lg">
             {{achievement.text}}
           </span>
         </div>
-        <div class="achievement-description pl-10 py-5 leading-loose" v-html="achievement.description.replaceAll(new RegExp('\n', 'g'), '<br/>')">
+        <div class="achievement-description pl-10 py-5 leading-loose dark:opacity-80" v-html="achievement.description.replaceAll(new RegExp('\n', 'g'), '<br/>')">
         </div>
       </li>
     </ul>
