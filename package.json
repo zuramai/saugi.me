@@ -11,17 +11,17 @@
     "@unocss/nuxt": "^0.46.5",
     "@unocss/preset-icons": "^0.46.5",
     "@unocss/transformer-directives": "^0.46.5",
-    "@vueuse/core": "^9.10.0",
+    "@vueuse/core": "^9.13.0",
     "inquirer": "9.1.4",
     "normalize.css": "^8.0.1",
-    "nuxt": "^3.0.0",
+    "nuxt": "^3.6.5",
     "unplugin-icons": "^0.14.15",
     "vue-gtag-next": "^1.14.0"
   },
   "dependencies": {
-    "@iconify-json/mdi": "^1.1.41",
-    "@nuxt/kit": "^3.0.0",
-    "@pinia/nuxt": "^0.4.6",
-    "pinia": "^2.0.28"
+    "@iconify-json/mdi": "^1.1.54",
+    "@nuxt/kit": "^3.6.5",
+    "@pinia/nuxt": "^0.4.11",
+    "pinia": "^2.1.6"
   }
 }
