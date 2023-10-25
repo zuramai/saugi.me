@@ -4,6 +4,22 @@ export const useProjectsStore = defineStore('projects', {
     state: () => ({
         projects: [
             {
+                image: "/images/projects/teknumconf.png",
+                title: 'TeknumConf 2023 Website',
+                description: "Website for TeknumConf Event",
+                technologies: ['Go', 'Nuxt', 'Tailwind'],
+                github_url: 'https://github.com/teknologi-umum/conf',
+                opensource: true,
+            },
+            {
+                image: "/images/projects/quotes.png",
+                title: 'Quotes',
+                description: "Quotes web app created with Rust Axum and Vue",
+                technologies: ['Rust', 'Axum', 'Vue', 'Postgres'],
+                github_url: 'https://github.com/zuramai/quotes',
+                opensource: true,
+            },
+            {
                 image: "/images/projects/jsonvis.png",
                 title: 'JSONVis',
                 description: "SVG-powered JSON object visualization",
