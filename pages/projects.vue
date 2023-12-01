@@ -21,34 +21,16 @@ const closedSource = computed(() => store.projects.filter((p) => !p.opensource))
     <div class="prose">
       <h1 class="text-center">My Projects</h1>
       
-      <Tabs>
-        <tab-content name="open" text="Open Source">
-          <div class="project-cards | grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 py-5">
-            <Card v-for="(project, index) in openSource" :key="index"
-              :title="project.title" 
-              :image="project.image" 
-              :stacks="project.technologies"
-              :description="project.description" 
-              :github="project.github_url" 
-              :opensource="project.description" 
-              class="w-full"
-              >
-            </Card>
-          </div>
-        </tab-content>
-        <tab-content name="closed" text="Closed Source">
-          <div class="project-cards | grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-5 py-5">
-            <Card v-for="(project, index) in closedSource" :key="index"
-              :title="project.title" 
-              :image="project.image" 
-              :stacks="project.technologies"
-              :description="project.description" 
-              class="w-full"
-              >
-            </Card>
-          </div>
-        </tab-content>
-      </Tabs>
+      <div class="project-cards | grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-5 py-5">
+        <Card v-for="(project, index) in store.projects" :key="index"
+          :title="project.title" 
+          :image="project.image" 
+          :stacks="project.technologies"  
+          :description="project.description" 
+          class="w-full"
+          >
+        </Card>
+      </div>
     </div>
   </div>
 </section>
