@@ -17,7 +17,7 @@ const closedSource = computed(() => store.projects.filter((p) => !p.opensource))
 </script>
 <template>
 <section class="content">
-  <div class="container mx-auto max-w-[75ch]!">
+  <div class="px-3 lg:px-0 mx-auto max-w-[75ch]!">
     <div class="prose">
       <h1 class="text-center">My Projects</h1>
       
