@@ -4,6 +4,21 @@ export const useProjectsStore = defineStore('projects', {
     state: () => ({
         projects: [
             {
+                image: "/images/projects/bootwind.png",
+                title: 'Bootwind UI Library',
+                description: "React UI component library with Tailwind CSS",
+                technologies: ['React', 'Tailwind'],
+                github_url: 'https://github.com/bootwindproject/bootwindui',
+                opensource: true,
+            },
+            {
+                image: "/images/projects/ChatLLM.png",
+                title: 'ChatLLM',
+                description: "A web application (PWA) to chat with AI (with offline support)",
+                technologies: ['React', 'NextJS', 'Tailwind'],
+                opensource: false,
+            },
+            {
                 image: "/images/projects/teknumconf.png",
                 title: 'TeknumConf 2023 Website',
                 description: "Website for TeknumConf Event",

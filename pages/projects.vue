@@ -28,6 +28,8 @@ const closedSource = computed(() => store.projects.filter((p) => !p.opensource))
           :stacks="project.technologies"  
           :description="project.description" 
           class="w-full"
+          :github="project.github_url" 
+          :opensource="project.opensource"
           >
         </Card>
       </div>
