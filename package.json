@@ -2,11 +2,12 @@
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
-    "build": "nuxi build",
+    "build": "nuxi build && jampack ./dist",
     "start": "nuxi preview",
     "generate": "nuxi generate"
   },
   "devDependencies": {
+    "@divriots/jampack": "^0.23.3",
     "@nuxtjs/google-fonts": "3.0.0-1",
     "@unocss/nuxt": "^0.46.5",
     "@unocss/preset-icons": "^0.46.5",
