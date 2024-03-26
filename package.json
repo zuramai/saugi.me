@@ -4,25 +4,25 @@
     "dev": "nuxi dev",
     "build": "nuxi build && jampack ./dist",
     "start": "nuxi preview",
-    "generate": "nuxi generate"
+    "generate": "nuxi generate && jampack ./dist"
   },
   "devDependencies": {
     "@divriots/jampack": "^0.23.3",
     "@nuxtjs/google-fonts": "3.0.0-1",
-    "@unocss/nuxt": "^0.46.5",
+    "@unocss/nuxt": "^0.58.6",
     "@unocss/preset-icons": "^0.46.5",
     "@unocss/transformer-directives": "^0.46.5",
     "@vueuse/core": "^9.13.0",
     "inquirer": "9.1.4",
     "normalize.css": "^8.0.1",
-    "nuxt": "^3.6.5",
+    "nuxt": "^3.11.1",
     "unplugin-icons": "^0.14.15",
     "vue-gtag-next": "^1.14.0"
   },
   "dependencies": {
-    "@iconify-json/mdi": "^1.1.54",
-    "@nuxt/kit": "^3.6.5",
+    "@iconify-json/mdi": "^1.1.64",
+    "@nuxt/kit": "^3.11.1",
     "@pinia/nuxt": "^0.4.11",
-    "pinia": "^2.1.6"
+    "pinia": "^2.1.7"
   }
 }
