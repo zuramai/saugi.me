@@ -4,6 +4,14 @@ export const useProjectsStore = defineStore('projects', {
     state: () => ({
         projects: [
             {
+                image: "/images/projects/ipush.png",
+                title: 'Ipush',
+                description: "Pusher-like service, realtime application framework",
+                technologies: ['TypeScript', 'NodeJS', 'Vue', 'PHP'],
+                github_url: 'https://github.com/ipush-id',
+                opensource: true,
+            },
+            {
                 image: "/images/projects/bootwind.png",
                 title: 'Bootwind UI Library',
                 description: "React UI component library with Tailwind CSS",
