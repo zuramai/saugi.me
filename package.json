@@ -1,28 +1,29 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build && jampack ./dist",
-    "start": "nuxi preview",
-    "generate": "nuxi generate && jampack ./dist"
+    "dev": "nuxt dev",
+    "build": "nuxt build && jampack ./dist",
+    "start": "nuxt preview",
+    "generate": "nuxt generate && jampack ./dist"
   },
   "devDependencies": {
-    "@divriots/jampack": "^0.23.3",
-    "@nuxtjs/google-fonts": "3.0.0-1",
-    "@unocss/nuxt": "^0.58.6",
-    "@unocss/preset-icons": "^0.46.5",
-    "@unocss/transformer-directives": "^0.46.5",
-    "@vueuse/core": "^9.13.0",
+    "@divriots/jampack": "^0.34.0",
+    "@nuxtjs/google-fonts": "3.2.0",
+    "@oxc-parser/binding-darwin-arm64": "^0.90.0",
+    "@unocss/nuxt": "^66.5.1",
+    "@unocss/preset-icons": "^66.5.1",
+    "@unocss/transformer-directives": "^66.5.1",
+    "@vueuse/core": "^13.9.0",
     "inquirer": "9.1.4",
     "normalize.css": "^8.0.1",
-    "nuxt": "^3.11.1",
-    "unplugin-icons": "^0.14.15",
+    "nuxt": "^4.1.2",
+    "unplugin-icons": "^22.3.0",
     "vue-gtag-next": "^1.14.0"
   },
   "dependencies": {
-    "@iconify-json/mdi": "^1.1.64",
-    "@nuxt/kit": "^3.11.1",
-    "@pinia/nuxt": "^0.4.11",
-    "pinia": "^2.1.7"
+    "@iconify-json/mdi": "^1.2.3",
+    "@nuxt/kit": "^4.1.2",
+    "@pinia/nuxt": "^0.11.2",
+    "pinia": "^3.0.3"
   }
 }
