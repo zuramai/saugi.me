@@ -4,6 +4,30 @@ export const useProjectsStore = defineStore('projects', {
     state: () => ({
         projects: [
             {
+                image: "/images/projects/pembantuai.png",
+                title: 'PembantuAI',
+                description: "AI Assistant Telegram Bot",
+                technologies: ['Rust'],
+                github_url: 'https://github.com/devoverid/pembantu-ai',
+                opensource: true,
+            },
+            {
+                image: "/images/projects/upgan.png",
+                title: 'Hugo minimal blog theme',
+                description: "Minimal blog theme for Hugo",
+                technologies: ['Hugo', 'Tailwind'],
+                github_url: 'https://github.com/zuramai/upgan',
+                opensource: true,
+            },
+            {
+                image: "/images/projects/idsw2025.png",
+                title: 'IDSW 2025',
+                description: "Indonesia Software Developer Conference Website",
+                technologies: ['Astro', 'Tailwind'],
+                github_url: 'https://github.com/idsw-dev/conference',
+                opensource: true,
+            },
+            {
                 image: "/images/projects/ipush.png",
                 title: 'Ipush',
                 description: "Pusher-like service, realtime application framework",
