@@ -10,9 +10,9 @@ useHead({
 <section class="content">
   <div class="container mx-auto">
     <div class="prose">
-      <h1 class="text-center">Hi, Saugi's here!</h1>
+      <h1 class="text-center">Ahmad Saugi</h1>
       <p>
-        I am Ahmad Saugi, a bachelor of computer science student.
+        Hey! I'm Saugi, a Rust-powered backend engineer building systems designed for scale and production resilience.
       </p>
       <p>My passion for software lies with dreaming up ideas and making them come true with elegant interfaces. I take great care in experience, architecture, and code quality of the things I build.</p>
       <p>
